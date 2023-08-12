@@ -10,6 +10,6 @@ Feel free to update, upgrade and improve or reuse without credits - but no comme
 
 Potential improvements which you might pull request:
 - Combine both scripts into one
-- Ui in instagram to start the script
+- Ui in instagram to start the script using for example Tampermonkey
 - Code cleanup/restructure to make the process faster
 - Different element finding logic to support all languages
