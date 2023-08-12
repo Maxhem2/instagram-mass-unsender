@@ -95,9 +95,9 @@ function processNextMessage() {
                                             processNextMessage();
                                         }, 300000)
                                     }
-                                }, 1000); // Delay added to ensure the click event completes
+                                }, 3000); // Delay added to ensure the click event completes
                             });
-                        }, 1000); // Delay added to ensure the click event completes
+                        }, 3000); // Delay added to ensure the click event completes
                     } else {
                         console.log('No Unsend button found for this message.');
                         // Scroll to the next newest message and process it
