@@ -13,3 +13,7 @@ Potential improvements which you might pull request:
 - Ui in instagram to start the script using for example Tampermonkey
 - Code cleanup/restructure to make the process faster
 - Different element finding logic to support all languages
+
+
+test-scriptv2.js should support all languages and be much faster and more reliable- BUT it needs a loop wrapper to make sure it runs more than once, currently it will delete a single message from bottom to top.
+If you decide to build this wrapper please create a pull request so I can update this repo, also the wrapper must have a end condition (when there are no more messages to be deleted)
