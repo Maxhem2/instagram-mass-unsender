@@ -1,22 +1,35 @@
-# instagram-mass-unsender
-javascript to mass unsend dms of one chat
+# Instagram DM Mass Unsender
 
+A JavaScript script to mass unsend direct messages (DMs) from one chat on Instagram.
 
-Bascially open developer console and paste the first script inside, hit enter, wait untill ur at the first message of your chat (the oldest) and then paste the seconds script and hit enter and then it will do everything including waiting for timeouts (instragam rate limits)
+## How to Use
+1. Open your Instagram account in a web browser and go into the chat where you want to unsend all your Messages.
+2. Access the developer console in your browser (usually by pressing `Ctrl + Shift + J` or `Cmd + Option + J` or `F12`).
+3. Copy the (.js) scripts content (code) and paste it into the developer console.
+4. Press `Enter`.
 
-Only works on enlish version of instagram website
-(Go to your profile https://www.instagram.com/YOUR_PROFILE/ and then scrool down untill you see the language, click it to change it to English!
-[image](https://github.com/Maxhem2/instagram-mass-unsender/assets/95474622/62cc29da-cac9-47e7-a291-2510e6323434)
-)
+The script will handle all the necessary actions, including waiting for timeouts to bypass Instagram rate limits.
 
-Feel free to update, upgrade and improve or reuse without credits - but no commercial usage allowed
+## Contribution
+Feel free to contribute to this project! If you wish to reuse or modify any part of the code, please make sure to provide proper credit to the original author (Maxhem2).
 
-Potential improvements which you might pull request:
-- Combine both scripts into one
-- Ui in instagram to start the script using for example Tampermonkey
-- Code cleanup/restructure to make the process faster
-- Different element finding logic to support all languages
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+    <a property="dct:title" rel="cc:attributionURL" href="https://github.com/Maxhem2/instagram-mass-unsender">Instagram DM Mass Unsender</a> by
+    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Maxhem2">Maxhem2</a> is licensed under
+    <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+        CC BY 4.0
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
+    </a>
+</p>
 
+## Potential Improvements
+Here are some potential improvements for this project that you can consider:
 
-test-scriptv2.js should support all languages and be much faster and more reliable- BUT it needs a loop wrapper to make sure it runs more than once, currently it will delete a single message from bottom to top.
-If you decide to build this wrapper please create a pull request so I can update this repo, also the wrapper must have a end condition (when there are no more messages to be deleted)
+1. **UI Integration**: Create a user interface within Instagram, possibly using browser extensions like Tampermonkey, to make it more user-friendly.
+
+2. **Code Optimization**: Optimize and restructure the code to make the unsending process faster and more efficient.
+
+3. **Video Tutorial**: Consider creating a YouTube tutorial explaining how to use this script and include a link to it in this README for user guidance.
+
+By collaborating on these improvements, we can make this project even more useful and accessible to the community.
