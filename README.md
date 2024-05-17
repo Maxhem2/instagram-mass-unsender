@@ -1,5 +1,7 @@
 # Instagram DM Mass Unsender
 
+[ABANDONED]
+
 A JavaScript script to mass unsend direct messages (DMs) from one chat on Instagram.
 
 ## How to Use
