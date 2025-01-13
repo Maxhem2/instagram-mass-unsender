@@ -1,6 +1,6 @@
 # Instagram DM Mass Unsender
 
-[ABANDONED]
+[ABANDONED] LAST UPDATE 12.01.2025 US LANGUAGE
 
 A JavaScript script to mass unsend direct messages (DMs) from one chat on Instagram.
 
@@ -10,7 +10,7 @@ A JavaScript script to mass unsend direct messages (DMs) from one chat on Instag
 3. Copy the (.js) scripts content (code) and paste it into the developer console.
 4. Press `Enter`.
 
-The script will handle all the necessary actions, including waiting for timeouts to bypass Instagram rate limits.
+The script will handle all the necessary actions, including waiting for timeouts to work with Instagram rate limits.
 
 ## Contribution
 Feel free to contribute to this project! If you wish to reuse or modify any part of the code, please make sure to provide proper credit to the original author (Maxhem2).
