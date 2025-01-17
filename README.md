@@ -1,6 +1,6 @@
 # Instagram DM Mass Unsender
 
-[ABANDONED] LAST UPDATE 12.01.2025 US LANGUAGE
+[ABANDONED] Use https://github.com/thoughtsunificator/instagram-dm-unsender instead!
 
 A JavaScript script to mass unsend direct messages (DMs) from one chat on Instagram.
 
